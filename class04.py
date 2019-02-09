@@ -113,10 +113,9 @@ for i in range(0, 5):
     print('')
 
 
-
 print("####################################")
 
 for i in range(1, 6):
     for j in range(0, 5):
         print('1', end=" ")
-    print('')
+        print('')
