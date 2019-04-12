@@ -99,24 +99,60 @@
 
 
 
-
+#
+# for i in range(1, 6):
+#     for j in range(0, 5):
+#         print('*', end=" ")
+#     print('')
+#
+# print("####################################")
+#
+#for i in range(0, 5):
+#     for j in range(0, 5):
+#         print(i%2, end=" ")
+#     print('')
+#
+#
+# print("####################################")
+#
+# for i in range(1, 6):
+#     for j in range(0, 5):
+#         print('1', end=" ")
+#         print('')
+# print("##################################################")
+# for i in range(0, 5):
+#      for j in range(0, 5):
+#          print(i%2, end=" ")
+#      print(' ')
+# print('##########################################################')
+# for i in range(0, 5):
+#     for j in range(1, 6):
+#         print(j, end=" ")
+#
+#     print(' ')
+#
+#
+# for i in range (0, 6):
+#     for j in range(0, i):
+#         print(2**(j+1), end="")
+#         print('')
+num = 1
 for i in range(1, 6):
-    for j in range(0, 5):
-        print('*', end=" ")
-    print('')
-
-print("####################################")
-
-for i in range(0, 5):
-    for j in range(0, 5):
-        print(i%2, end=" ")
-    print('')
+  for j in range(1, 6):
+    print(num, end=" ")
+    num += 1
+  print(" ")
 
 
 
-print("####################################")
 
-for i in range(1, 6):
-    for j in range(0, 5):
-        print('1', end=" ")
-    print('')
+
+
+
+
+
+
+
+
+
+
